@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .burger-nav {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background-color: #404040;
+        cursor: pointer;
+        text-align: right;
+    }
+    .burger-nav i {
+        color: #fff;
+        margin: 10px 10px 0 0;
+    }
+    header .wrapper {
+        width: 100%;
+        padding: 0;
+    }
+    header nav ul {
+        overflow: hidden;
+        background-color: #505050;
+        height: 0;
+    }
+    header nav ul.open {
+        height: auto;
+    }
+    header nav ul li {
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    header nav ul li a {
+        color: #fff;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        text-decoration: none;
+        margin: 0;
+    }
+}
